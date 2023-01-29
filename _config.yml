@@ -1,0 +1,17 @@
+title: ChatGPTプロンプト日英1対1対応
+description: 役にたつChatGPTの英文プロンプトとその和訳を集めています。
+theme: just-the-docs
+
+url: https://just-the-docs.github.io
+
+aux_links:
+  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+
+callouts_level: quiet
+callouts:
+  chatgpt:
+    color: green
+    opacity: 0.2
+  user:
+    color: grey-dk
+    opacity: 0.3

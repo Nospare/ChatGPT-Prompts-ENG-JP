@@ -1,0 +1,80 @@
+{"0": {
+    "doc": "コーディング Coding",
+    "title": "Table of contents",
+    "content": ". | データ探索 Explore Data | 機械学習モデルの訓練 Train a Machine Learning Model | データの生成 Generate Data . | 具体例 Example | . | . データ探索 Explore Data . | プロンプト | Prompt | . | データサイエンティストとして、私のためにコードを書いて欲しい。私は[データセットの説明]のデータセットを持っています。このデータの可視化と探索のためのコードを書いてください。 | I want you to act as a data scientist and code for me. I have a dataset of [describe dataset]. Please write code for data visualisation and exploration. | . 機械学習モデルの訓練 Train a Machine Learning Model . | プロンプト | Prompt | . | データサイエンティストとして、私のためにコードを書いて欲しい。私は[データセットの説明]のデータセットを持っています。[ターゲット変数]を予測する機械学習モデルを構築してください。 | I want you to act as a data scientist and code for me. I have a dataset of [describe dataset]. Please build a machine learning model that predict [target variable]. | . データの生成 Generate Data . | プロンプト | Prompt | . | あなたにはプログラマーの役をしてもらいたい。[データセットの説明]の偽のデータセットを生成するためのPythonコードを書いてください。データはpandasのDataFrameに格納される。データには、[変数]が含まれます。 | I want you to act as a programmer. You will write the Python to generate a fake dataset of [describe dataset]. The data will be stored in a pandas DataFrame. The data will contain contain: [variables in the dataset] | . 具体例 Example . User . I want you to act as a programmer. You will write the Python code to generate a fake dataset of McDonals sales in Japan. The data will be stored in a pandas DataFrame. The data will contain three columns: name of the product, price, and number of items sold in a month. 和訳: あなたにはプログラマーの役をしてもらいたい。日本におけるマクドナルドの売上高の偽のデータセットを生成するためのPythonコードを書いてください。データはpandasのDataFrameに格納される。データには、商品名、価格、1ヶ月に売れた個数の3つの列が含まれます。 . ChatGPT . Sure! Here’s a code to generate a fake dataset of McDonalds sales in Japan: . 和訳 もちろん！日本のマクドナルドの売り上げに関する偽のデータセットを生成するコードはこちらです。 . import pandas as pd import random products = ['Big Mac', 'Quarter Pounder', 'McChicken', 'Filet-O-Fish', 'Happy Meal'] prices = [450, 500, 400, 350, 400] sales = [random.randint(500, 5000) for i in range(5)] df = pd.DataFrame({'Product': products, 'Price': prices, 'Sales': sales}) . This code creates a list of 5 products, with corresponding prices, and generates random sales figures for each product using the random module. The resulting data is then stored in a Pandas DataFrame with the column names ‘Product’, ‘Price’, and ‘Sales’. 和訳 このコードでは、5つの商品とそれに対応する価格のリストを作成し、randomモジュールを使用して各商品のランダムな販売数を生成しています。生成されたデータは、’Product’、’Price’、’Sales’というカラム名を持つ Pandas DataFrame に格納されます。 . ",
+    "url": "/data-science/code.html#table-of-contents",
+    "relUrl": "/data-science/code.html#table-of-contents"
+  },"1": {
+    "doc": "コーディング Coding",
+    "title": "コーディング Coding",
+    "content": " ",
+    "url": "/data-science/code.html",
+    "relUrl": "/data-science/code.html"
+  },"2": {
+    "doc": "説明 Explain",
+    "title": "Table of contents",
+    "content": ". | Pythonの場合 | Rの場合 | SQLの場合 | . Pythonの場合 . | プロンプト | Prompt | . | コードの説明役をしてほしい。このPythonのコードが何をしているのか、説明してもらえますか？[Pythonコードを挿入] | I want you to act as a code explainer. Can you explain to me what this Python code is doing? [Insert Python code] | . Rの場合 . | プロンプト | Prompt | . | コードの説明役をしてほしい。このRのコードが何をしているのか、説明してもらえますか？[Rコードを挿入] | I want you to act as a code explainer. Can you explain to me what this R code is doing? [Insert R code] | . SQLの場合 . | プロンプト | Prompt | . | コードの説明役をしてほしい。このSQLのコードが何をしているのか、説明してもらえますか？[SQLコードを挿入] | I want you to act as a code explainer. Can you explain to me what this SQL code is doing? [Insert SQL code] | . ",
+    "url": "/data-science/explain.html#table-of-contents",
+    "relUrl": "/data-science/explain.html#table-of-contents"
+  },"3": {
+    "doc": "説明 Explain",
+    "title": "説明 Explain",
+    "content": " ",
+    "url": "/data-science/explain.html",
+    "relUrl": "/data-science/explain.html"
+  },"4": {
+    "doc": "データサイエンス Datascience",
+    "title": "データサイエンス Datascience",
+    "content": " ",
+    "url": "/data-science/",
+    "relUrl": "/data-science/"
+  },"5": {
+    "doc": "ホーム Home",
+    "title": "はじめに",
+    "content": "User . I want you to act as the developer of ChatGPT. I will be the editor of a technology magazine and you will tell my how ChatGPT functions. My first question is, is ChatGPT better in terms quality when you ask a question in English than in Japanese? . 和訳: ChatGPTの開発者の役をしていただきたいです。私は技術雑誌の編集者となり、ChatGPTの機能を教えていただきます。最初の質問ですが、ChatGPTは日本語で質問するよりも、英語で質問した方が品質的に良いのでしょうか？ . ChatGPT . No, the quality of ChatGPT’s responses doesn’t depend on the language of the question. It has been trained on a diverse range of texts in many languages, including English and Japanese, and can generate responses in those languages. However, its performance may vary depending on the complexity and specificity of the questions, as well as the availability of training data in a particular language. 和訳: ChatGPTは英語、日本語を含む様々な言語のテクストで学習しており、それらの言語で回答を生成することができます。ただし、質問の複雑さや特殊性、特定の言語での学習データの有無によって性能が異なる場合があります。 . User . Which language has more training data available? . 和訳: どの言語がより多くの学習データを利用できるのですか? . ChatGPT . English has more training data available compared to other languages, including Japanese. As a language model developed by OpenAI, ChatGPT was primarily trained on a large corpus of English text from the internet, which allowed it to learn and generate responses in the English language effectively. However, the model has been fine-tuned on smaller datasets in other languages, including Japanese, to improve its performance in those languages. 和訳 英語は、日本語を含む他の言語と比較して、利用可能な学習データが多いのが特徴です。OpenAIが開発した言語モデルであるChatGPTは、主にインターネット上の大規模な英語テキストコーパスで学習させたため、英語での応答を効率的に学習・生成することができました。しかし、このモデルは、日本語を含む他の言語の小規模なデータセットで微調整を行い、それらの言語での性能を向上させています。 . ChatGPTはインターネットに敬されている英語のコーパスで訓練された後、日本語のデータセットでファインチューニングされています。したがって、日本語より英語で質問(プロンプト)を書いた方が、より良い回答が得られると考えられます。ここではデータサイエンスにはじめ、様々なトピックで役立つChatGPTのプロンプトを集めています。 . ",
+    "url": "/#%E3%81%AF%E3%81%98%E3%82%81%E3%81%AB",
+    "relUrl": "/#はじめに"
+  },"6": {
+    "doc": "ホーム Home",
+    "title": "ホーム Home",
+    "content": " ",
+    "url": "/",
+    "relUrl": "/"
+  },"7": {
+    "doc": "最適化 Optimization",
+    "title": "Table of contents",
+    "content": ". | 実行速度の向上 | Pandasの最適化 | SQLの最適化 | . 実行速度の向上 . | プロンプト | Prompt | . | ソフトウェア開発者の役をして欲しい。以下のPythonコードの時間的複雑さを改善するのを手伝って欲しい。[コードを挿入] | I want you to act as a software developer. Please help me improve the time complexity of the Python code below. [Insert code] | . Pandasの最適化 . | プロンプト | Prompt | . | Pythonのソフトウェア開発者の役をして欲しい。以下のPandasコードのどこが問題なのかを指摘し、最適化することができるだろうか？[Pythonコードを挿入] | I want you to act as a Python sofware developer. Can you point out what is wrong with the following Pandas code and optimize it? [Insert Python code] | . SQLの最適化 . | プロンプト | Prompt | . | SQLコードのオプティマイザーの役をして欲しい。次のコードは実行速度が遅い。スピードアップするのを手伝ってくれないか。[SQLコードを挿入] | I want you to act as a SQL code optimizer. The following code is slow. Can you help me speed it up? [Insert Python code] | . ",
+    "url": "/data-science/optimize.html#table-of-contents",
+    "relUrl": "/data-science/optimize.html#table-of-contents"
+  },"8": {
+    "doc": "最適化 Optimization",
+    "title": "最適化 Optimization",
+    "content": " ",
+    "url": "/data-science/optimize.html",
+    "relUrl": "/data-science/optimize.html"
+  },"9": {
+    "doc": "整理 Organize",
+    "title": "Table of contents",
+    "content": ". | ドキュメンテーションの生成 | コードの読みやすさを向上 | . ドキュメンテーションの生成 . | プロンプト | Prompt | . | ソフトウェア開発者の役をして欲しい。以下の[関数名を挿入]についてのドキュメントを提供してください。[関数のコードを挿入] | I want you to act as a software developer. Please provide documentation for the function [Insert function name] below. [Insert function] | . コードの読みやすさを向上 . | プロンプト | Prompt | . | コード分析者の役をして欲しい。次のコードの可読性と保守性を改善できるだろうか。[コードを挿入] | I want you to act as a code analyzer. Can you improve the following code for readability and maintainability? [Insert code] | . ",
+    "url": "/data-science/organize.html#table-of-contents",
+    "relUrl": "/data-science/organize.html#table-of-contents"
+  },"10": {
+    "doc": "整理 Organize",
+    "title": "整理 Organize",
+    "content": " ",
+    "url": "/data-science/organize.html",
+    "relUrl": "/data-science/organize.html"
+  },"11": {
+    "doc": "翻訳 Translate",
+    "title": "Table of contents",
+    "content": ". | RからPythonへの翻訳 | PythonからRへの翻訳 | RからSQLへの翻訳 | . RからPythonへの翻訳 . | プロンプト | Prompt | . | コード翻訳者の役をして欲しい。次のコードをRからPythonに変換してください。[Rコードを挿入] | I want you to act as a code translator. Can you please convert the following code from R to Python? [Rコードを挿入] | . PythonからRへの翻訳 . | プロンプト | Prompt | . | コード翻訳者の役をして欲しい。次のコードをPythonからRに変換してください。[Pythonコードを挿入] | I want you to act as a code translator. Can you please convert the following code from Python to R? [Insert Python code] | . RからSQLへの翻訳 . | プロンプト | Prompt | . | コード翻訳者の役をして欲しい。次のコードをRからSQLに変換してください。[Rコードを挿入] | I want you to act as a code translator. Can you please convert the following code from R to SQL? [Insert R code] | . ",
+    "url": "/data-science/translate.html#table-of-contents",
+    "relUrl": "/data-science/translate.html#table-of-contents"
+  },"12": {
+    "doc": "翻訳 Translate",
+    "title": "翻訳 Translate",
+    "content": " ",
+    "url": "/data-science/translate.html",
+    "relUrl": "/data-science/translate.html"
+  }
+}
