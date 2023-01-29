@@ -1,11 +1,11 @@
-title: ChatGPTプロンプト日英1対1対応
+title: ChatGPT日英1対1
 description: 役にたつChatGPTの英文プロンプトとその和訳を集めています。
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: https://ShozenD.github.io/ChatGPT-Prompts-ENG-JP
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  GitHub Repository: https://github.com/ShozenD/ChatGPT-Prompts-ENG-JP
 
 callouts_level: quiet
 callouts:

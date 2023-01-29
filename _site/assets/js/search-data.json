@@ -23,54 +23,60 @@
     "url": "/data-science/explain.html",
     "relUrl": "/data-science/explain.html"
   },"4": {
-    "doc": "データサイエンス Datascience",
-    "title": "データサイエンス Datascience",
-    "content": " ",
-    "url": "/data-science/",
-    "relUrl": "/data-science/"
-  },"5": {
     "doc": "ホーム Home",
     "title": "はじめに",
     "content": "User . I want you to act as the developer of ChatGPT. I will be the editor of a technology magazine and you will tell my how ChatGPT functions. My first question is, is ChatGPT better in terms quality when you ask a question in English than in Japanese? . 和訳: ChatGPTの開発者の役をしていただきたいです。私は技術雑誌の編集者となり、ChatGPTの機能を教えていただきます。最初の質問ですが、ChatGPTは日本語で質問するよりも、英語で質問した方が品質的に良いのでしょうか？ . ChatGPT . No, the quality of ChatGPT’s responses doesn’t depend on the language of the question. It has been trained on a diverse range of texts in many languages, including English and Japanese, and can generate responses in those languages. However, its performance may vary depending on the complexity and specificity of the questions, as well as the availability of training data in a particular language. 和訳: ChatGPTは英語、日本語を含む様々な言語のテクストで学習しており、それらの言語で回答を生成することができます。ただし、質問の複雑さや特殊性、特定の言語での学習データの有無によって性能が異なる場合があります。 . User . Which language has more training data available? . 和訳: どの言語がより多くの学習データを利用できるのですか? . ChatGPT . English has more training data available compared to other languages, including Japanese. As a language model developed by OpenAI, ChatGPT was primarily trained on a large corpus of English text from the internet, which allowed it to learn and generate responses in the English language effectively. However, the model has been fine-tuned on smaller datasets in other languages, including Japanese, to improve its performance in those languages. 和訳 英語は、日本語を含む他の言語と比較して、利用可能な学習データが多いのが特徴です。OpenAIが開発した言語モデルであるChatGPTは、主にインターネット上の大規模な英語テキストコーパスで学習させたため、英語での応答を効率的に学習・生成することができました。しかし、このモデルは、日本語を含む他の言語の小規模なデータセットで微調整を行い、それらの言語での性能を向上させています。 . ChatGPTはインターネットに敬されている英語のコーパスで訓練された後、日本語のデータセットでファインチューニングされています。したがって、日本語より英語で質問(プロンプト)を書いた方が、より良い回答が得られると考えられます。ここではデータサイエンスにはじめ、様々なトピックで役立つChatGPTのプロンプトを集めています。 . ",
     "url": "/#%E3%81%AF%E3%81%98%E3%82%81%E3%81%AB",
     "relUrl": "/#はじめに"
-  },"6": {
+  },"5": {
     "doc": "ホーム Home",
     "title": "ホーム Home",
     "content": " ",
     "url": "/",
     "relUrl": "/"
+  },"6": {
+    "doc": "データサイエンス Datascience",
+    "title": "データサイエンス Datascience",
+    "content": " ",
+    "url": "/data-science/",
+    "relUrl": "/data-science/"
   },"7": {
+    "doc": "英文作成 English writing",
+    "title": "英文作成 English writing",
+    "content": " ",
+    "url": "/english/",
+    "relUrl": "/english/"
+  },"8": {
     "doc": "最適化 Optimization",
     "title": "Table of contents",
     "content": ". | 実行速度の向上 | Pandasの最適化 | SQLの最適化 | . 実行速度の向上 . | プロンプト | Prompt | . | ソフトウェア開発者の役をして欲しい。以下のPythonコードの時間的複雑さを改善するのを手伝って欲しい。[コードを挿入] | I want you to act as a software developer. Please help me improve the time complexity of the Python code below. [Insert code] | . Pandasの最適化 . | プロンプト | Prompt | . | Pythonのソフトウェア開発者の役をして欲しい。以下のPandasコードのどこが問題なのかを指摘し、最適化することができるだろうか？[Pythonコードを挿入] | I want you to act as a Python sofware developer. Can you point out what is wrong with the following Pandas code and optimize it? [Insert Python code] | . SQLの最適化 . | プロンプト | Prompt | . | SQLコードのオプティマイザーの役をして欲しい。次のコードは実行速度が遅い。スピードアップするのを手伝ってくれないか。[SQLコードを挿入] | I want you to act as a SQL code optimizer. The following code is slow. Can you help me speed it up? [Insert Python code] | . ",
     "url": "/data-science/optimize.html#table-of-contents",
     "relUrl": "/data-science/optimize.html#table-of-contents"
-  },"8": {
+  },"9": {
     "doc": "最適化 Optimization",
     "title": "最適化 Optimization",
     "content": " ",
     "url": "/data-science/optimize.html",
     "relUrl": "/data-science/optimize.html"
-  },"9": {
+  },"10": {
     "doc": "整理 Organize",
     "title": "Table of contents",
     "content": ". | ドキュメンテーションの生成 | コードの読みやすさを向上 | . ドキュメンテーションの生成 . | プロンプト | Prompt | . | ソフトウェア開発者の役をして欲しい。以下の[関数名を挿入]についてのドキュメントを提供してください。[関数のコードを挿入] | I want you to act as a software developer. Please provide documentation for the function [Insert function name] below. [Insert function] | . コードの読みやすさを向上 . | プロンプト | Prompt | . | コード分析者の役をして欲しい。次のコードの可読性と保守性を改善できるだろうか。[コードを挿入] | I want you to act as a code analyzer. Can you improve the following code for readability and maintainability? [Insert code] | . ",
     "url": "/data-science/organize.html#table-of-contents",
     "relUrl": "/data-science/organize.html#table-of-contents"
-  },"10": {
+  },"11": {
     "doc": "整理 Organize",
     "title": "整理 Organize",
     "content": " ",
     "url": "/data-science/organize.html",
     "relUrl": "/data-science/organize.html"
-  },"11": {
+  },"12": {
     "doc": "翻訳 Translate",
     "title": "Table of contents",
-    "content": ". | RからPythonへの翻訳 | PythonからRへの翻訳 | RからSQLへの翻訳 | . RからPythonへの翻訳 . | プロンプト | Prompt | . | コード翻訳者の役をして欲しい。次のコードをRからPythonに変換してください。[Rコードを挿入] | I want you to act as a code translator. Can you please convert the following code from R to Python? [Rコードを挿入] | . PythonからRへの翻訳 . | プロンプト | Prompt | . | コード翻訳者の役をして欲しい。次のコードをPythonからRに変換してください。[Pythonコードを挿入] | I want you to act as a code translator. Can you please convert the following code from Python to R? [Insert Python code] | . RからSQLへの翻訳 . | プロンプト | Prompt | . | コード翻訳者の役をして欲しい。次のコードをRからSQLに変換してください。[Rコードを挿入] | I want you to act as a code translator. Can you please convert the following code from R to SQL? [Insert R code] | . ",
+    "content": ". | RからPythonへの翻訳 . | 具体例 Example | . | PythonからRへの翻訳 | RからSQLへの翻訳 . | 具体例 Example | . | . RからPythonへの翻訳 . | プロンプト | Prompt | . | コード翻訳者の役をして欲しい。次のコードをRからPythonに変換してください。[Rコードを挿入] | I want you to act as a code translator. Can you please convert the following code from R to Python? [Rコードを挿入] | . 具体例 Example . User . I want you to act as a code translator. Can you please convert the following code from R to Python? . library(dplyr) library(stringr) data %&gt;% mutate( temperature = case_when( temperature &lt; 10 ~ \"Cold\", temperature &lt; 25 ~ \"Mild\", temperature &gt;= 25 ~ \"Hot\" ) ) %&gt;% group_by(temperature) %&gt;% summarise(N = n()) %&gt;% ungroup() %&gt;% mutate(percentage = N/sum(N) * 100) . ChatGPT . import pandas as pd data = data.assign( temperature=pd.cut( data[\"temperature\"], bins=[-float(\"inf\"), 10, 25, float(\"inf\")], labels=[\"Cold\", \"Mild\", \"Hot\"] ) ) data = data.groupby(\"temperature\").agg(N=(\"temperature\", \"count\")) data[\"percentage\"] = data[\"N\"] / data[\"N\"].sum() * 100 data = data.reset_index() . PythonからRへの翻訳 . | プロンプト | Prompt | . | コード翻訳者の役をして欲しい。次のコードをPythonからRに変換してください。[Pythonコードを挿入] | I want you to act as a code translator. Can you please convert the following code from Python to R? [Insert Python code] | . RからSQLへの翻訳 . | プロンプト | Prompt | . | コード翻訳者の役をして欲しい。次のコードをRからSQLに変換してください。[Rコードを挿入] | I want you to act as a code translator. Can you please convert the following code from R to SQL? [Insert R code] | . 具体例 Example . User . I want you to act as a code translator. Can you please convert the following code from R to SQL? . library(dplyr) library(stringr) data %&gt;% mutate( temperature = case_when( temperature &lt; 10 ~ \"Cold\", temperature &lt; 25 ~ \"Mild\", temperature &gt;= 25 ~ \"Hot\" ) ) %&gt;% group_by(temperature) %&gt;% summarise(N = n()) %&gt;% ungroup() %&gt;% mutate(percentage = N/sum(N) * 100) . ChatGPT . SELECT temperature, COUNT(*) as N, COUNT(*)/SUM(COUNT(*)) over() * 100 as percentage FROM ( SELECT CASE WHEN temperature &lt; 10 THEN 'Cold' WHEN temperature &lt; 25 THEN 'Mild' ELSE 'Hot' END AS temperature FROM data ) subquery GROUP BY temperature . ",
     "url": "/data-science/translate.html#table-of-contents",
     "relUrl": "/data-science/translate.html#table-of-contents"
-  },"12": {
+  },"13": {
     "doc": "翻訳 Translate",
     "title": "翻訳 Translate",
     "content": " ",
